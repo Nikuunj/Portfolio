@@ -23,7 +23,7 @@ function App() {
       <About></About>
       <Skills></Skills>
       <div id="projects">
-      {/* <Projects setProjectNo={setProjectNo} setModal={setIsModalOpen}></Projects> */}
+      <Projects setProjectNo={setProjectNo} setModal={setIsModalOpen}></Projects>
       </div>
       <Contact></Contact>
     </div>

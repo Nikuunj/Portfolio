@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../assets/projects/Project1.webp";
+import img1 from "../assets/projects/image-1.png";
 import img2 from "../assets/projects/Project2.webp";
 import img3 from "../assets/projects/Project3.webp";
 import img4 from "../assets/projects/Project4.webp";
@@ -29,7 +29,7 @@ export default function Projects({ setModal, setProjectNo }) {
         Projects
       </div>
       <div className="flex max-[940px]:flex-col mt-10 gap-4">
-        <div className="relative max-[940px]:flex max-[940px]:justify-start">
+        <div className="relative max-[940px]:flex max-[940px]:justify-start  rounded-md  shadow-slate-700 hover:scale-105 duration-500">
           <img
             alt="Project"
             className="h-72 max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44 rounded-xl"
@@ -40,20 +40,15 @@ export default function Projects({ setModal, setProjectNo }) {
               <IconButton
                 onClick={navigateToLinksHandler.bind(
                   this,
-                  "https://github.com/SamarthKadam/ChatBox"
+                  "https://online-market-frontend.vercel.app"
                 )}
               >
-                <GitHubIcon />
-              </IconButton>
-            </Tooltip>
-            <Tooltip title="View Project">
-              <IconButton onClick={ViewProjectHandler.bind(this, 1)}>
                 <OpenInNew />
               </IconButton>
             </Tooltip>
           </div>
         </div>
-        <div className="relative max-[940px]:flex max-[940px]:justify-end">
+        {/* <div className="relative max-[940px]:flex max-[940px]:justify-end">
           <img
             alt="Project"
             className="h-72 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44"
@@ -176,7 +171,7 @@ export default function Projects({ setModal, setProjectNo }) {
               </IconButton>
             </Tooltip>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
