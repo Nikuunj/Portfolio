@@ -36,7 +36,7 @@ export default function Projects({ setModal, setProjectNo }) {
             src={img1}
           ></img>
           <div className="absolute bottom-0 max-[800px]:hidden  left-0">
-            <Tooltip title="View Repository">
+            <Tooltip title="View Live">
               <IconButton
                 onClick={navigateToLinksHandler.bind(
                   this,
@@ -54,19 +54,14 @@ export default function Projects({ setModal, setProjectNo }) {
             className="h-72 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44"
             src={img2}
           ></img>
-          <div className="absolute bottom-0 max-[800px]:hidden ">
-            <Tooltip title="View Repository">
+          <div className="absolute bottom-0 max-[800px]:hidden  left-0">
+            <Tooltip title="View Live">
               <IconButton
                 onClick={navigateToLinksHandler.bind(
                   this,
                   "https://run-it.vercel.app/"
                 )}
               >
-                
-              </IconButton>
-            </Tooltip>
-            <Tooltip title="View Project">
-              <IconButton onClick={ViewProjectHandler.bind(this, 2)}>
                 <OpenInNew />
               </IconButton>
             </Tooltip>
