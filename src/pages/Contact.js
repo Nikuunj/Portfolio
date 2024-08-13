@@ -85,14 +85,14 @@ export default function Contact() {
                 ></img>
                 mnikunj262@gmail.com
               </div>
-              <div className="flex items-center gap-2 max-[455px]:text-xs mt-1">
+              {/* <div className="flex items-center gap-2 max-[455px]:text-xs mt-1">
                 <img
                   alt="info"
                   className="h-5 max-[992px]:h-3"
                   src={phone}
                 ></img>{" "}
                 +91 7600587575
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
