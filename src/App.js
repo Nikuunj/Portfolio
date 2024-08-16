@@ -1,5 +1,6 @@
 import React from "react";
 import { fairyDustCursor } from "cursor-effects";
+import { Analytics } from "@vercel/analytics/react"
 import { useEffect } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -26,6 +27,7 @@ function App() {
       <Projects setProjectNo={setProjectNo} setModal={setIsModalOpen}></Projects>
       </div>
       <Contact></Contact>
+      <Analytics />
     </div>
   );
 }
