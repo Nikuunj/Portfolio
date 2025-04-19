@@ -1,8 +1,8 @@
 import React from "react";
 import img1 from "../assets/projects/image-1.png";
 import img2 from "../assets/projects/project-2.png";
-import img3 from "../assets/projects/Project3.png";
-import img4 from "../assets/projects/Project4.webp";
+import img3 from "../assets/projects/image-3.png";
+import img4 from "../assets/projects/image-2.png";
 import img5 from "../assets/projects/Project5.webp";
 import img6 from "../assets/projects/Project6.webp";
 // import { MotionAnimate } from "react-motion-animate";
@@ -29,18 +29,19 @@ export default function Projects({ setModal, setProjectNo }) {
         Projects
       </div>
       <div className="flex max-[940px]:flex-col mt-10 gap-4">
-        <div className="relative max-[940px]:flex max-[940px]:justify-start  rounded-md  shadow-slate-700 hover:scale-105 duration-300">
+        
+      <div className="relative max-[940px]:flex max-[940px]:justify-start  rounded-md  shadow-slate-700 hover:scale-105 duration-300">
           <img
             alt="Project"
-            className="h-72 max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44 rounded-xl"
-            src={img1}
+            className="h-64 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44"
+            src={img3}
           ></img>
-          <div className="absolute bottom-0 max-[800px]:hidden  left-0">
+          <div className="absolute bottom-0 max-[800px]:hidden bg-zinc-800  rounded-s-lg rounded-t-none left-0">
             <Tooltip title="View Live">
               <IconButton
                 onClick={navigateToLinksHandler.bind(
                   this,
-                  "https://online-market-frontend.vercel.app"
+                  "https://x-store-nine.vercel.app/"
                 )}
               >
                 <OpenInNew />
@@ -48,13 +49,14 @@ export default function Projects({ setModal, setProjectNo }) {
             </Tooltip>
           </div>
         </div>
+        
         <div className="relative max-[940px]:flex max-[940px]:justify-start  rounded-md  shadow-slate-700 hover:scale-105 duration-300">
           <img
             alt="Project"
-            className="h-72 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44"
+            className="h-64 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44"
             src={img2}
           ></img>
-          <div className="absolute bottom-0 max-[800px]:hidden  left-0">
+          <div className="absolute bottom-0 max-[800px]:hidden bg-zinc-800  rounded-s-lg rounded-t-none left-0">
             <Tooltip title="View Live">
               <IconButton
                 onClick={navigateToLinksHandler.bind(
@@ -70,18 +72,20 @@ export default function Projects({ setModal, setProjectNo }) {
       </div>
 
       <div className="flex max-[940px]:flex-col mt-10 gap-4">
+      
+
         <div className="relative max-[940px]:flex max-[940px]:justify-start  rounded-md  shadow-slate-700 hover:scale-105 duration-300">
           <img
             alt="Project"
-            className="h-64 max-[1500px]:h-48  max-[1100px]:h-[170px] max-[455px]:h-44 rounded-xl"
-            src={img3}
+            className="h-64 max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44 rounded-xl"
+            src={img4}
           ></img>
-          <div className="absolute bottom-0 max-[800px]:hidden  left-0">
-            <Tooltip title="View Live">
+          <div className="absolute bottom-0 max-[800px]:hidden bg-zinc-800  rounded-s-lg rounded-t-none left-0">
+            <Tooltip title="View Code" >
               <IconButton
                 onClick={navigateToLinksHandler.bind(
                   this,
-                  "https://drashti-clinic.vercel.app/"
+                  "https://github.com/Nikuunj/x-wallet"
                 )}
               >
                 <OpenInNew />
@@ -89,27 +93,26 @@ export default function Projects({ setModal, setProjectNo }) {
             </Tooltip>
           </div>
         </div>
-
-        {/* add forth  */}
-        {/* <div className="relative max-[940px]:flex max-[940px]:justify-start  rounded-md  shadow-slate-700 hover:scale-105 duration-300">
+        <div className="relative max-[940px]:flex max-[940px]:justify-start  rounded-md  shadow-slate-700 hover:scale-105 duration-300">
           <img
             alt="Project"
-            className="h-72 rounded-xl max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44"
-            src={img2}
+            className="h-64 max-[1500px]:h-64 max-[1140px]:h-52 max-[455px]:h-44 rounded-xl"
+            src={img1}
           ></img>
-          <div className="absolute bottom-0 max-[800px]:hidden  left-0">
+          <div className="absolute bottom-0 max-[800px]:hidden bg-zinc-800  rounded-s-lg rounded-t-none left-0">
             <Tooltip title="View Live">
               <IconButton
                 onClick={navigateToLinksHandler.bind(
                   this,
-                  "https://run-it.vercel.app/"
+                  "https://online-market-frontend.vercel.app"
                 )}
               >
                 <OpenInNew />
               </IconButton>
             </Tooltip>
           </div>
-        </div> */}
+        </div>
+        
       </div>
       {/* 
       <div className=" flex gap-4 max-[940px]:flex-col justify-end mt-10 overflow-auto">
