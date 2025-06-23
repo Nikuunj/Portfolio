@@ -51,10 +51,10 @@ function Introduction() {
                         [learn → build → solve] 
                     </div>
                     <div>
-                        I'm a full-stack developer who enjoys solving real problems with code. I mostly build web apps using React, Next.js, Node.js, and PostgreSQL, but I’m also interested in areas like real-time systems, Web3, and blockchain tools. I love learning new things and building simple, meaningful tools that actually help people.
+                        {`I'm a full-stack developer who enjoys solving real problems with code. I mostly build web apps using React, Next.js, Node.js, and PostgreSQL, but I’m also interested in areas like real-time systems, Web3, and blockchain tools. I love learning new things and building simple, meaningful tools that actually help people.`}
                     </div>
                     <div>
-                        I'm a final-year Computer Engineering student at GEC Dahod, a full-stack developer skilled in building responsive web apps, problem solver, and passionate about Web3 and blockchain tech.
+                        {`I'm a final-year Computer Engineering student at GEC Dahod, a full-stack developer skilled in building responsive web apps, problem solver, and passionate about Web3 and blockchain tech.`}
                     </div>
                 </div>
             </div>
