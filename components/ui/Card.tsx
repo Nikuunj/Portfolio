@@ -1,7 +1,7 @@
 
 function Card({ children, className }: { children: React.ReactNode, className?: string }) {
   return (
-    <div className={`w-fit border border-zinc-200 rounded-md bg-zinc-700 ${className}`}>{children}</div>
+    <div className={`w-fit border border-slate-500/60 hover:scale-110 transition-all duration-150 rounded-md bg-slate-800 ${className}`}>{children}</div>
   )
 }
 

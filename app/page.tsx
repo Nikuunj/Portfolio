@@ -5,7 +5,7 @@ import SkillSection from "@/components/ui/SkillSection";
 
 export default function Home() {
     return (
-        <div className=" relative min-h-screen font-caprasimo p-4 md:p-8 max-w-4xl mx-auto pb-24 text-white">
+        <div className="relative min-h-screen font-caprasimo p-4 md:p-8 max-w-4xl mx-auto pb-24 text-white space-y-11">
             <Introduction />
             <SkillSection />
             <ExperienceSection />
