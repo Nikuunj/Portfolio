@@ -5,8 +5,8 @@ import SkillSection from "@/components/SkillSection";
 
 export default function Home() {
     return (
-        <div className="relative min-h-screen font-caprasimo p-4 md:p-8 max-w-4xl mx-auto pb-24 tracking-wider">
-            <div className="py-24 space-y-9">
+        <div className="relative min-h-screen font-caprasimo p-4 md:p-8 max-w-4xl mx-auto pb-24 tracking-wide">
+            <div className="py-24 space-y-11">
                 <Introduction />
                 <SkillSection />
                 <ExperienceSection />
