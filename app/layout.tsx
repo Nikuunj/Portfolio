@@ -15,7 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nikunj Makwana"
+  title: "Nikunj Makwana",
+  icons: {
+    icon: "/sonic.jpg",
+  },
 };
 
 export default function RootLayout({
