@@ -1,0 +1,1 @@
+export const animation = 'transition-all duration-200';
