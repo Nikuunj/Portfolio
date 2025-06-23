@@ -3,6 +3,7 @@ import Image from "next/image"
 import sconic from '@/public/sonic.jpg'
 import { MoonIcon, SunIcon } from "lucide-react"
 import { useState } from "react"
+import { motion } from "framer-motion"
 import { animation } from "@/data/extraStuff"
 
 function Introduction() {
@@ -32,10 +33,13 @@ function Introduction() {
                     
                 </div>
                 <div>
-                    <button type="button" onClick={toggleTheme} className={`${animation} border-2 outline-0 rounded-full 
+                    <motion.button 
+                    whileTap={{ scale: 1.1, rotate: 45 }}
+                    transition={{ duration:0.1 }}
+                     type="button" onClick={toggleTheme} className={`${animation} border-2 outline-0 rounded-full 
                         border-zinc-400 bg-slate-200 dark:border-zinc-600 dark:bg-slate-800`}>
                         {dark ? <MoonIcon className="text-zinc-400 w-4.5 m-2.5 h-4.5"/> : <SunIcon  className="text-zinc-600 m-2.5 w-4.5 h-4.5"/>}
-                    </button>
+                    </motion.button>
                 </div>
             </div>
             <div className="space-y-7">
