@@ -1,15 +1,17 @@
-import ExperienceSection from "@/components/ui/ExperienceSection";
-import Introduction from "@/components/ui/Introduction";
-import ProjectSection from "@/components/ui/ProjectSection";
-import SkillSection from "@/components/ui/SkillSection";
+import ExperienceSection from "@/components/ExperienceSection";
+import Introduction from "@/components/Introduction";
+import ProjectSection from "@/components/ProjectSection";
+import SkillSection from "@/components/SkillSection";
 
 export default function Home() {
     return (
-        <div className="relative min-h-screen font-caprasimo p-4 md:p-8 max-w-4xl mx-auto pb-24 text-white space-y-11">
-            <Introduction />
-            <SkillSection />
-            <ExperienceSection />
-            <ProjectSection />
+        <div className="relative min-h-screen font-caprasimo p-4 md:p-8 max-w-4xl mx-auto pb-24 tracking-wider">
+            <div className="py-24 space-y-9">
+                <Introduction />
+                <SkillSection />
+                <ExperienceSection />
+                <ProjectSection />
+            </div>
         </div>
     );
 }

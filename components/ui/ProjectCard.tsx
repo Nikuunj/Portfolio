@@ -14,11 +14,11 @@ interface ProjectProps {
 function ProjectCard({ name, github, live, description }: ProjectProps) {
 
      const [hover, setHover] = useState<boolean>(false);
-     const linkStyle = `w-3.5 hover:text-gray-600 hover:scale-125 ${animation}`
+     const linkStyle = `w-3.5 dark:hover:text-gray-600 hover:text-gray-400 hover:scale-125 ${animation}`
      return (
-          <div className={`border-b py-4 space-y-2 capitalize ${animation} ${hover ? 
-               'border-zinc-600/80 scale-102' : 
-               'border-zinc-800'}`}
+          <div className={`border-b py-4 space-y-3 capitalize ${animation} ${hover ? 
+               'dark:border-zinc-700 scale-102 border-zinc-400' : 
+               'dark:border-zinc-800 border-zinc-300'}`}
                onMouseEnter={() => setHover(true)}
                onMouseLeave={() => setHover(false)}
           >
@@ -28,18 +28,20 @@ function ProjectCard({ name, github, live, description }: ProjectProps) {
                          ''}`}>{name}</div>
                     <div className={`flex gap-3.5 ${animation} ${hover ? 
                          'opacity-100' : 
-                         'opacity-0'}`}>
-                         <a href={live} target="_blank">
+                         'opacity-100 md:opacity-0'}`}>
+                         {live && <a href={live} target="_blank">
                               <Link className={`${linkStyle}`} />
-                         </a>
-                         <a href={github} target="_blank" >
+                         </a>}
+                         {github && <a href={github} target="_blank" >
                               <Github className={`${linkStyle}`}/> 
-                         </a>
+                         </a>}
                     </div>
                </div>
-               <div className={`text-start text-xs sm:text-[13px] ${hover ? 
+               <div className={`text-start text-[11px] sm:text-[13px] ${animation} ${hover ? 
                     '' : 
-                    'text-zinc-400/85'}`}>{description}</div>
+                    'dark:text-zinc-400/85 text-zinc-400'}`}
+                    >{description}
+                    </div>
           </div>
      )
 }

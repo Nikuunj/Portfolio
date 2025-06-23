@@ -27,7 +27,7 @@ export default function RootLayout({
             {`@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap");`}
       </style>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-zinc-300 normal`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white   dark:bg-black text-zinc-900 dark:text-zinc-300  normal`}
       >
         {children}
       </body>
