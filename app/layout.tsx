@@ -16,13 +16,13 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Nikunj Makwana | Software Developer",
+  icons: {
+    icon : '/sonic.jpg',
+  },
   description: `Nikunj Makwana is a software developer who builds scalable, high-performance, 
     and SEO-friendly applications using React.js, Next.js, TypeScript, Node.js, PostgreSQL, MongoDB, 
     and Prisma. He follows clean code practices like DRY and aims to deliver smooth user experiences. Open to 
     full-time, freelance, or internship roles. GitHub: https://github.com/Nikuunj`,
-  icons: {
-    icon: "/sonic.jpg",
-  },
   openGraph: {
     title: "Nikunj Makwana | Software Developer",
     description: "Software developer skilled in React, Next.js, Node.js, and TypeScript. Available for full-time, freelance, or internship roles.",
