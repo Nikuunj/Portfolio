@@ -15,7 +15,7 @@ function Introduction() {
     return (
         <div className="space-y-13">
             <div className="flex  w-full justify-between items-center"> 
-                <div className="flex gap-3 items-center">
+                <div className="flex gap-3 items-center capitalize">
                     <div>
                     <Image 
                         src={sconic}
@@ -24,12 +24,12 @@ function Introduction() {
                         />
                     </div>
                     
-                    <div className={`text-2xl font-semibold ${animation}`}>
+                    <h1 className={`text-2xl font-bold ${animation}`}>
                         Nikunj Makwana
                         <div className="text-base text-zinc-500">
-                            @Nikuunj
+                            @Nikuunj &middot; software developer
                         </div>
-                    </div>
+                    </h1>
                     
                 </div>
                 <div>
@@ -46,17 +46,25 @@ function Introduction() {
                 <div className="font-semibold text-xl">
                     About
                 </div>
-                <div className="text-[15px] space-y-5">
-                    <div>
-                        [learn → build → solve] 
-                    </div>
-                    <div>
-                        {`I'm a full-stack developer who enjoys solving real problems with code. I mostly build web apps using React, Next.js, Node.js, and PostgreSQL, but I’m also interested in areas like real-time systems, Web3, and blockchain tools. I love learning new things and building simple, meaningful tools that actually help people.`}
-                    </div>
-                    <div>
-                        {`I'm a final-year Computer Engineering student at GEC Dahod, a full-stack developer skilled in building responsive web apps, problem solver, and passionate about Web3 and blockchain tech.`}
-                    </div>
+                <div className="text-[15px] space-y-5 leading-relaxed text-pretty">
+                    <p className="font-medium tracking-wide">[learn → build → solve]</p>
+                    <p>
+                        I'm a <strong>Software Developer</strong> who enjoys solving real
+                        problems with code. I primarily build web applications using
+                        <strong> React, Next.js, Node.js</strong>, and
+                        <strong> PostgreSQL</strong>, and I have a growing interest in{" "}
+                        <strong>real-time systems, Web3</strong>, and{" "}
+                        <strong>blockchain technologies</strong>. I love learning new
+                        things and building simple, impactful tools that genuinely help
+                        people.
+                    </p>
+                    <p>
+                        I'm a final-year Computer Engineering student at GEC Dahod,
+                        passionate about crafting <strong>responsive web apps</strong> and
+                        exploring the future of tech with Web3 and decentralized systems.
+                    </p>
                 </div>
+
             </div>
         </div>
     )
