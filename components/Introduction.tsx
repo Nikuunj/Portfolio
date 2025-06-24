@@ -52,7 +52,7 @@ function Introduction() {
                 <div className="text-[15px] space-y-5 leading-relaxed text-pretty">
                     <p className="font-medium tracking-wide">[learn → build → solve]</p>
                     <p>
-                        I'm a <strong>Software Developer</strong> who enjoys solving real
+                         I&rsquo;m a <strong>Software Developer</strong> who enjoys solving real
                         problems with code. I primarily build web applications using
                         <strong> React, Next.js, Node.js</strong>, and
                         <strong> PostgreSQL</strong>, and I have a growing interest in{" "}
@@ -62,7 +62,7 @@ function Introduction() {
                         people.
                     </p>
                     <p>
-                        I'm a final-year Computer Engineering student at GEC Dahod,
+                         I&rsquo;m a final-year Computer Engineering student at GEC Dahod,
                         passionate about crafting <strong>responsive web apps</strong> and
                         exploring the future of tech with Web3 and decentralized systems.
                     </p>
