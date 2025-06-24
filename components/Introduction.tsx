@@ -19,24 +19,27 @@ function Introduction() {
                     <div>
                     <Image 
                         src={sconic}
-                        alt="Picture of the author"
-                        className={`w-16 border-zinc-400 dark:border-zinc-800 border-[2px] rounded-full `}
+                        alt="Nikunj Makwana profile picture"
+                        className={`w-16 border-zinc-400 dark:border-zinc-800 border-[2px] rounded-full`}
+                        priority
                         />
                     </div>
-                    
-                    <h1 className={`text-2xl font-bold ${animation}`}>
+                    <div>
+                        <h1 className={`text-2xl font-bold ${animation}`}>
                         Nikunj Makwana
-                        <div className="text-base text-zinc-500">
-                            @Nikuunj &middot; software developer
-                        </div>
-                    </h1>
+                        </h1>
+                        <p className="text-base text-zinc-500">
+                        @Nikuunj &middot; Software Developer
+                        </p>
+                    </div>
                     
                 </div>
                 <div>
                     <motion.button 
                     whileTap={{ scale: 1.1, rotate: 45 }}
                     transition={{ duration:0.1 }}
-                     type="button" onClick={toggleTheme} className={`${animation} border-2 outline-0 rounded-full 
+                    aria-label="Toggle Theme"
+                    type="button" onClick={toggleTheme} className={`${animation} border-2 outline-0 rounded-full 
                         border-zinc-400/80 bg-slate-200 dark:border-zinc-600 dark:bg-slate-800`}>
                          {dark ? <MoonIcon className="text-zinc-400 w-4.5 m-2.5 h-4.5"/> : <SunIcon  className="text-zinc-600 m-2.5 w-4.5 h-4.5"/>}
                     </motion.button>
