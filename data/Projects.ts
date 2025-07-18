@@ -7,6 +7,12 @@ export const projects = [
           describe: 'A Solana wallet adapter. Create Token, Mint Tokens, Send SOL, Sign Messages and Airdrop Wallet' ,
      },
      {
+          name: 'XDraw',
+          github: 'https://github.com/Nikuunj/x-draw',
+          live: 'https://x-draw.vercel.app/',
+          describe: 'A Solana wallet adapter. Create Token, Mint Tokens, Send SOL, Sign Messages and Airdrop Wallet' ,
+     },
+     {
           name: 'X Store',
           github: 'https://github.com/Nikuunj/x-store',
           live: 'https://x-store-nine.vercel.app/',
