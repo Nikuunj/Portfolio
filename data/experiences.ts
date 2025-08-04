@@ -4,7 +4,7 @@ export const experiences  = [
           company: 'hooman digital',
           to: 'Aug 2025',
           from: 'Present',
-          place: 'Office- Ahmedabad'
+          place: 'Remote'
      },
      {
           domain: 'Full Stack Development Internship',
