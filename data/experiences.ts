@@ -1,5 +1,12 @@
 export const experiences  = [
      {
+          domain: 'Full Stack AI Development Internship',
+          company: 'hooman digital',
+          to: 'Aug 2025',
+          from: 'Present',
+          place: 'Office- Ahmedabad'
+     },
+     {
           domain: 'Full Stack Development Internship',
           company: ' GRAAS SOLUTIONS PVT. LTD.',
           to: 'Jan 2025',
