@@ -2,8 +2,8 @@ export const experiences  = [
      {
           domain: 'Full Stack AI Development Internship',
           company: 'hooman digital',
-          to: 'Aug 2025',
-          from: 'Present',
+          to: 'Jul 2025',
+          from: 'Aug 2025',
           place: 'Remote'
      },
      {
