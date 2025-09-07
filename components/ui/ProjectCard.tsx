@@ -6,8 +6,8 @@ import { useState } from "react"
 
 interface ProjectProps {
      name: string; 
-     github: string;
-     live: string;
+     github?: string;
+     live?: string;
      description: string
 }
 
