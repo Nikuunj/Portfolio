@@ -1,6 +1,11 @@
 
 export const projects = [
      {
+          name: 'MediInfo',
+          github: 'https://github.com/Nikuunj/mediInfo',
+          describe: 'A modern web app that makes accessing and managing healthcare information simple, fast, and user-friendly.' ,
+     },
+     {
           name: 'XA',
           github: 'https://github.com/Nikuunj/wallet-adapter',
           live: 'https://wallet-adapter-wine.vercel.app/',
