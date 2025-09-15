@@ -1,6 +1,13 @@
 
 export const projects = [
      {
+          name: 'XStake',
+          github: 'https://github.com/Nikuunj/Staking/',
+          live: 'https://xstake-six.vercel.app/',
+          describe: 'A decentralized staking platform where you can securely stake your ETH and earn rewards, featuring a simple and intuitive interface for seamless interaction.',
+
+     },
+     {
           name: 'MediInfo',
           github: 'https://github.com/Nikuunj/mediInfo',
           describe: 'A modern web app that makes accessing and managing healthcare information simple, fast, and user-friendly.' ,
