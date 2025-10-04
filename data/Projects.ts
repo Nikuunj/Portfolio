@@ -1,16 +1,17 @@
 
 export const projects = [
      {
+          name: 'Buy me tea - ETH',
+          github: 'https://github.com/Nikuunj/buymetea-eth',
+          live: 'https://buymetea-eth.vercel.app/',
+          describe: 'Platform where anyone can create a personal page and receive ETH tips instantly, without KYC',
+     },
+     {
           name: 'XStake',
           github: 'https://github.com/Nikuunj/Staking/',
           live: 'https://xstake-six.vercel.app/',
           describe: 'A decentralized staking platform where you can securely stake your ETH and earn rewards, featuring a simple and intuitive interface for seamless interaction.',
 
-     },
-     {
-          name: 'MediInfo',
-          github: 'https://github.com/Nikuunj/mediInfo',
-          describe: 'A modern web app that makes accessing and managing healthcare information simple, fast, and user-friendly.' ,
      },
      {
           name: 'XA',
@@ -23,6 +24,11 @@ export const projects = [
           github: 'https://github.com/Nikuunj/x-draw',
           live: 'https://x-draw.vercel.app/',
           describe: 'A Solana wallet adapter. Create Token, Mint Tokens, Send SOL, Sign Messages and Airdrop Wallet' ,
+     },
+     {
+          name: 'MediInfo',
+          github: 'https://github.com/Nikuunj/mediInfo',
+          describe: 'A modern web app that makes accessing and managing healthcare information simple, fast, and user-friendly.' ,
      },
      {
           name: 'X Store',
