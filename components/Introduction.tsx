@@ -59,24 +59,24 @@ function Introduction() {
         <div className="font-semibold text-xl">
           About
         </div>
-        <div className="text-[15px] space-y-5 leading-relaxed text-pretty text-zinc-50">
-          <p className="font-medium tracking-wide text-zinc-400">[learn → build → solve]</p>
+        <div className="text-[15px] space-y-5 leading-relaxed text-pretty">
+          <p className="font-medium tracking-wide">[learn → build → solve]</p>
           <p>
-            I&rsquo;m a <strong className="text-white">Software Developer</strong> who enjoys solving real
-            problems with code. I mostly write code in <strong className="text-white">Neovim</strong>,
+            I&rsquo;m a <strong>Software Developer</strong> who enjoys solving real
+            problems with code. I mostly write code in <strong>Neovim</strong>,
             which keeps my workflow fast and focused. I primarily build web
-            applications using <strong className="text-white">Next.js</strong>, <strong className="text-white">Node.js</strong>, and
-            <strong className="text-white"> PostgreSQL</strong>, and I have a growing interest in{" "}
-            <strong className="text-white">real-time systems, Web3</strong>, and{" "}
-            <strong className="text-white">blockchain technologies</strong>. I love learning new
+            applications using <strong>Next.js</strong>, <strong>Node.js</strong>, and
+            <strong> PostgreSQL</strong>, and I have a growing interest in{" "}
+            <strong>real-time systems, Web3</strong>, and{" "}
+            <strong>blockchain technologies</strong>. I love learning new
             things and building simple, impactful tools that genuinely help
             people.
           </p>
           <p>
-            I&rsquo;m a <strong className="text-white">Computer Engineering student</strong> at GEC Dahod,
-            passionate about crafting <strong className="text-white">responsive web apps</strong> and
-            exploring the future of tech with <strong className="text-white">Web3</strong> and{" "}
-            <strong className="text-white">decentralized systems</strong>.
+            I&rsquo;m a <strong>Computer Engineering student</strong> at GEC Dahod,
+            passionate about crafting <strong>responsive web apps</strong> and
+            exploring the future of tech with <strong>Web3</strong> and{" "}
+            <strong>decentralized systems</strong>.
           </p>
         </div>
       </div>
