@@ -34,6 +34,9 @@ function Introduction() {
             <p className="text-base text-zinc-500">
               @Nikuunj &middot; Software Developer
             </p>
+            <p className="flex items-center gap-2 font-semibold">
+              <div className="animate-ping bg-red-500/70 rounded-full h-2 w-2 " /> Hire me
+            </p>
           </div>
         </div>
         <div>
