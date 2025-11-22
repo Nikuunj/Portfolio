@@ -23,13 +23,13 @@ export const projects = [
     name: 'XA',
     github: 'https://github.com/Nikuunj/wallet-adapter',
     live: 'https://wallet-adapter-wine.vercel.app/',
-    describe: 'XDraw is a real-time sketch platform using WebSockets and Prisma/PostgreSQL to deliver collaborative drawing with freehand and shape tools.',
+    describe: 'A Solana wallet adapter. Create Token, Mint Tokens, Send SOL, Sign Messages and Airdrop Wallet',
   },
   {
     name: 'XDraw',
     github: 'https://github.com/Nikuunj/x-draw',
     live: 'https://x-draw.vercel.app/',
-    describe: 'A Solana wallet adapter. Create Token, Mint Tokens, Send SOL, Sign Messages and Airdrop Wallet',
+    describe: 'XDraw is a real-time sketch platform using WebSockets and Prisma/PostgreSQL to deliver collaborative drawing with freehand and shape tools.',
   },
   {
     name: 'MediInfo',
