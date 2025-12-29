@@ -3,32 +3,32 @@ export const projects = [
   {
     name: 'Wing',
     github: 'https://github.com/Nikuunj/Wing',
-    live: 'https://wing-gamma-nine.vercel.app/',
+    live: 'https://wing.nikunj.online/',
     describe: 'Decentralized Tipping Platform on Solana, without KYC',
   },
   {
     name: 'Buy me tea - ETH',
     github: 'https://github.com/Nikuunj/buymetea-eth',
-    live: 'https://buymetea-eth.vercel.app/',
+    live: 'https://buymetea.nikunj.online/',
     describe: 'Platform where anyone can create a personal page and receive ETH tips instantly, without KYC',
   },
   {
     name: 'XStake',
     github: 'https://github.com/Nikuunj/Staking/',
-    live: 'https://xstake-six.vercel.app/',
+    live: 'https://xstake.nikunj.online/',
     describe: 'A decentralized staking platform where you can securely stake your ETH and earn rewards, featuring a simple and intuitive interface for seamless interaction.',
 
   },
   {
     name: 'XA',
     github: 'https://github.com/Nikuunj/wallet-adapter',
-    live: 'https://wallet-adapter-wine.vercel.app/',
+    live: 'https://xa.nikunj.online/',
     describe: 'A Solana wallet adapter. Create Token, Mint Tokens, Send SOL, Sign Messages and Airdrop Wallet',
   },
   {
     name: 'XDraw',
     github: 'https://github.com/Nikuunj/x-draw',
-    live: 'https://x-draw.vercel.app/',
+    live: 'https://x-draw.nikunj.online/',
     describe: 'XDraw is a real-time sketch platform using WebSockets and Prisma/PostgreSQL to deliver collaborative drawing with freehand and shape tools.',
   },
   {
