@@ -1,5 +1,12 @@
 export const experiences  = [
      {
+          domain: 'Builder',
+          company: 'Turbin3',
+          to: 'Jan 2026',
+          from: 'Present',
+          place: 'Remote'
+     },
+     {
           domain: 'Full Stack AI Development Internship',
           company: 'hooman digital',
           to: 'Jul 2025',
